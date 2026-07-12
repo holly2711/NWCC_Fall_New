@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact NWCC Fall Kickball League for registration assistance and general questions.">
+  <title>Contact Us | NWCC Fall Kickball League</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact-page">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About NWCC</a>
+      <a href="rules.html">Rules & Bylaws</a>
+      <a href="faq.html">FAQ</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+    <a class="facebook-link" href="https://www.facebook.com/nwccfallkickball" target="_blank" rel="noopener">
+      <span class="facebook-icon">f</span>
+      <span class="facebook-text">Follow us on Facebook</span>
+    </a>
+  </div>
+</header>
+<main>
+
+<section class="inner-hero contact-hero">
+  <div class="container inner-hero-grid">
+    <img src="assets/nwcc-logo.png" alt="NWCC Fall Kickball League logo">
+    <div>
+      <p class="inner-eyebrow">Questions? We Can Help.</p>
+      <h1>Contact NWCC</h1>
+      <div class="inner-script">Let’s stay connected! <span>♡</span></div>
+      <p>Contact the league for registration help, roster questions, policy information, or general assistance.</p>
+    </div>
+  </div>
+</section>
+
+<section class="inner-section">
+  <div class="container contact-card-grid">
+    <article class="contact-option-card">
+      <span>?</span>
+      <h2>Registration Help</h2>
+      <p>Need help completing a registration or correcting player information?</p>
+      <a href="https://nwcc.leagueapps.com/leagues/kickball/5077319-2026-nwcc-fall-kickball" target="_blank" rel="noopener">Open LeagueApps Registration ›</a>
+    </article>
+    <article class="contact-option-card">
+      <span>f</span>
+      <h2>Facebook</h2>
+      <p>Follow NWCC for announcements, reminders, and weather-related updates.</p>
+      <a href="https://www.facebook.com/nwccfallkickball" target="_blank" rel="noopener">Visit Our Facebook Page ›</a>
+    </article>
+    <article class="contact-option-card">
+      <span>♡</span>
+      <h2>General Questions</h2>
+      <p>Use the contact form below for league operations, scheduling, or policy questions.</p>
+      <a href="#contact-form">Send a Message ›</a>
+    </article>
+  </div>
+</section>
+
+<section class="inner-section soft-section" id="contact-form">
+  <div class="container contact-form-grid">
+    <article class="feature-card">
+      <p class="card-kicker">Send a Message</p>
+      <h2>Contact Form</h2>
+      <form class="styled-contact-form" action="https://formsubmit.co/YOUR-LEAGUE-EMAIL" method="POST">
+        <input type="hidden" name="_subject" value="NWCC Website Contact Form">
+        <input type="hidden" name="_captcha" value="false">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Phone<input type="tel" name="phone"></label>
+        <label>Topic
+          <select name="topic">
+            <option>Registration assistance</option>
+            <option>Team placement</option>
+            <option>Schedule question</option>
+            <option>Rules or bylaws</option>
+            <option>General question</option>
+          </select>
+        </label>
+        <label class="full-field">Message<textarea name="message" rows="6" required></textarea></label>
+        <button class="button button-pink full-field" type="submit">Send Message</button>
+      </form>
+      <p class="form-note"><strong>Before publishing:</strong> replace <code>YOUR-LEAGUE-EMAIL</code> in <code>contact.html</code> with the email address that should receive form submissions.</p>
+    </article>
+
+    <aside class="contact-info-panel">
+      <img src="assets/nwcc-logo.png" alt="NWCC Fall Kickball League">
+      <h2>NWCC Fall Kickball</h2>
+      <p>Corpus Christi, Texas</p>
+      <a href="https://www.facebook.com/nwccfallkickball" target="_blank" rel="noopener">Facebook: @nwccfallkickball</a>
+      <a href="https://nwcc.leagueapps.com/leagues/kickball/5077319-2026-nwcc-fall-kickball" target="_blank" rel="noopener">2026 Player Registration</a>
+      <p class="contact-script">Be Part of the NWCC Family! ♡</p>
+    </aside>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/nwcc-logo.png" alt="">
+      <div>
+        <strong>NWCC Fall Kickball League</strong>
+        <span>Fun. Friends. Confidence. Kickball!</span>
+      </div>
+    </div>
+    <p>© <span id="year"></span> NWCC Fall Kickball League. All rights reserved.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

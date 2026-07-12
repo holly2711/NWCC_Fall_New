@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NWCC Fall Kickball League — registration, schedules, rules, FAQs, and contact information.">
+  <title>NWCC Fall Kickball League</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About NWCC</a>
+      <a href="rules.html">Rules &amp; Bylaws</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a class="facebook-link" href="https://www.facebook.com/nwccfallkickball" target="_blank" rel="noopener">
+      <span class="facebook-icon">f</span>
+      <span class="facebook-text">Follow us on Facebook</span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-logo">
+        <img src="assets/nwcc-logo.png" alt="NWCC Fall Kickball League logo with pink kickball">
+      </div>
+
+      <div class="hero-copy">
+        <h1><span>Play Hard.</span><strong>Have Fun.</strong></h1>
+
+        <div class="family-line">
+          <p>Be Part of the NWCC Family!</p>
+          <span aria-hidden="true">♡</span>
+        </div>
+
+        <p class="hero-text">
+          NWCC Fall Kickball is a youth league focused on teamwork, sportsmanship, confidence, and making memories that last a lifetime.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-pink" href="https://nwcc.leagueapps.com/leagues/kickball/5077319-2026-nwcc-fall-kickball" target="_blank" rel="noopener">★ Register Now</a>
+        </div>
+      </div>
+
+      <div class="hero-photo" role="img" aria-label="Youth kickball player kicking a yellow kickball"></div>
+    </div>
+  </section>
+
+  <section class="facts" aria-label="Season details">
+    <div class="container fact-grid">
+      <div class="fact"><span class="fact-icon">▣</span><strong>Season Dates</strong><small>Sept. 21 – Nov. 13</small></div>
+      <div class="fact"><span class="fact-icon">◷</span><strong>Game Days</strong><small>Monday &amp; Thursday</small></div>
+      <div class="fact"><span class="fact-icon">●●●</span><strong>Ages</strong><small>Rookies – Teenage</small></div>
+      <div class="fact"><span class="fact-icon">$</span><strong>Registration Fee</strong><small>$50 per player</small></div>
+      <div class="fact"><span class="fact-icon">♙</span><strong>Open To</strong><small>All skill levels</small></div>
+      <div class="fact"><span class="fact-icon">♡</span><strong>Focus</strong><small>Fun, friends &amp; sportsmanship</small></div>
+    </div>
+  </section>
+
+  <section class="section home-cards">
+    <div class="container two-card-grid">
+      <article class="quick-links">
+        <h2>Quick Links</h2>
+        <a href="about.html">About NWCC <span>›</span></a>
+        <a href="rules.html">Rules &amp; Bylaws <span>›</span></a>
+        <a href="faq.html">FAQ <span>›</span></a>
+        <a href="contact.html">Contact Us <span>›</span></a>
+        <a href="https://www.facebook.com/nwccfallkickball" target="_blank" rel="noopener">Follow Us on Facebook <span>›</span></a>
+      </article>
+
+      <article class="team-card">
+        <div class="team-message">
+          <strong>Teamwork. Confidence. Fun.</strong>
+          <span>That’s NWCC! ♡</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container newsletter-grid">
+      <div>
+        <strong>Stay in the Loop!</strong>
+        <span>Sign up for updates, reminders, and league news.</span>
+      </div>
+
+      <form action="#" onsubmit="event.preventDefault(); alert('Connect this form to Google Forms, Mailchimp, or your email service.');">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" type="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/nwcc-logo.png" alt="">
+      <div>
+        <strong>NWCC Fall Kickball League</strong>
+        <span>Fun. Friends. Confidence. Kickball!</span>
+      </div>
+    </div>
+    <p>© <span id="year"></span> NWCC Fall Kickball League. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
