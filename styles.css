@@ -76,7 +76,7 @@ a{color:inherit}
 .hero-grid{
   min-height:350px;
   display:grid;
-  grid-template-columns:29% 38% 40%;
+  grid-template-columns:25% 35% 40%;
   align-items:center
 }
 .hero-logo img{
