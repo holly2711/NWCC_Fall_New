@@ -412,7 +412,7 @@ footer{
 .story-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:26px}
 .feature-card,.image-feature,.contact-option-card,.document-card{border:1px solid var(--border);border-radius:17px;background:#fff;box-shadow:var(--shadow);overflow:hidden}
 .feature-card{padding:36px;border-top:7px solid var(--pink)}.image-feature{min-height:390px;position:relative}
-.team-huddle-feature{background:url("assets/team_huddle2.png") center no-repeat;background-size:80%;}
+.team-huddle-feature{background:url("assets/team_huddle2.png") no-repeat;}
 .image-feature>div{position:absolute;inset:auto 0 0;padding:25px;text-align:center;color:#fff;background:linear-gradient(transparent,rgba(3,29,85,.95))}
 .image-feature strong{display:block;font-family:"Bebas Neue",sans-serif;font-size:34px;letter-spacing:1px;text-transform:uppercase}
 .image-feature span{display:block;color:var(--pink);font-family:"Allura",cursive;font-size:38px;line-height:1}
